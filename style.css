@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  background-image: linear-gradient(
+      to left,
+      rgba(235, 115, 18, 0.5),
+      rgb(0, 0, 0, 0.5)
+    ),
+    url(./img/makarna.jpg);
+    height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+  background-color: orange;
+}
+
+img{
+  
+  width: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
